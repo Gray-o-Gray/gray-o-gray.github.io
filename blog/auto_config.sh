@@ -10,4 +10,3 @@ npm install
 
 npm install hexo-deployer-git
 
-npm install hexo-theme-icarus
