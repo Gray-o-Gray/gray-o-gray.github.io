@@ -10,5 +10,5 @@ git commit -m "${time} UPGRADE: ${commit}"
 
 git push origin hexo
 
-hexo d -g
+hexo d -g || npx hexo d -g
 
