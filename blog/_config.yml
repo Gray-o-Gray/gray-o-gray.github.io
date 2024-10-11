@@ -1,9 +1,9 @@
-title: Hexo
-subtitle: ''
-description: ''
-keywords: null
-author: John Doe
-language: en
+title: makiblog
+subtitle: 'coding极客'
+description: '分享知识的小菜鸟'
+keywords: blog network
+author: zhu mengfei
+language: cn
 timezone: ''
 url: http://example.com
 permalink: ':year/:month/:day/:title/'
@@ -28,7 +28,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
