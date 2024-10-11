@@ -3,7 +3,7 @@ subtitle: 'coding极客'
 description: '分享知识的小菜鸟'
 keywords: blog network
 author: zhu mengfei
-language: cn
+language: zh-CN
 timezone: ''
 url: http://example.com
 permalink: ':year/:month/:day/:title/'
