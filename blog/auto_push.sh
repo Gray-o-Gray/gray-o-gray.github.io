@@ -38,9 +38,9 @@ do
         echo "-g: auto git commit and push. it'll use argument as commit content."
         echo "-d: auto hexo develop to github.io finished."
         ;;
-    #   ":")
-    #     echo "No argument value for option $OPTARG"
-    #     ;;
+      ":")
+        echo "No argument value for option $OPTARG"
+        ;;
       "?")
         echo "Unknown option $OPTARG"
         ;;
