@@ -12,8 +12,8 @@ npm install -S hexo-theme-icarus hexo-renderer-inferno
 
 # clone icarus from git in theme
 
-cd theme/
+# cd theme/
 
-git clone https://github.com/ppoffice/hexo-theme-icarus.git 
+# git clone https://github.com/ppoffice/hexo-theme-icarus.git 
 
 echo "hexo icarus config finished."
