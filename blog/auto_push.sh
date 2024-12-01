@@ -1,7 +1,8 @@
 #!/bin/bash
 
 git_commit_push(){
-    
+    cd ..
+
     git add .
 
     local time=$(date)
@@ -13,6 +14,8 @@ git_commit_push(){
     git push origin hexo
 
     echo "git commit and push finished."
+
+    cd blog/
 }
 
 hexo_develop_to_git(){
