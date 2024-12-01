@@ -111,10 +111,10 @@ navbar:
         Tags: /tags
         About: /about
     # Links to be shown on the right of the navigation bar
-    links:
-        Download on GitHub:
-            icon: fab fa-github
-            url: https://github.com/ppoffice/hexo-theme-icarus
+    # links:
+    #     Download on GitHub:
+    #         icon: fab fa-github
+    #         url: https://github.com/ppoffice/hexo-theme-icarus
 # Page footer configurations
 footer:
     # Copyright text
@@ -231,11 +231,11 @@ widgets:
         # Author name
         author: maki
         # Author title
-        author_title: 知识分享
+        author_title: 
         # Author's current location
         location: Earth
         # URL or path to the avatar image
-        avatar: 
+        avatar: /img/maki.png
         # Whether show the rounded avatar image
         avatar_rounded: false
         # Email address for the Gravatar
@@ -247,18 +247,18 @@ widgets:
             Github:
                 icon: fab fa-github
                 url: https://github.com/Gray-o-Gray
-            Facebook:
-                icon: fab fa-facebook
-                url: https://facebook.com
-            Twitter:
-                icon: fab fa-twitter
-                url: https://twitter.com
-            Dribbble:
-                icon: fab fa-dribbble
-                url: https://dribbble.com
-            RSS:
-                icon: fas fa-rss
-                url: /
+            # Facebook:
+            #     icon: fab fa-facebook
+            #     url: https://facebook.com
+            # Twitter:
+            #     icon: fab fa-twitter
+            #     url: https://twitter.com
+            # Dribbble:
+            #     icon: fab fa-dribbble
+            #     url: https://dribbble.com
+            # RSS:
+            #     icon: fas fa-rss
+            #     url: /
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -279,6 +279,7 @@ widgets:
         links:
             Hexo: https://hexo.io
             Bulma: https://bulma.io
+            icarus: https://github.com/ppoffice/hexo-theme-icarus
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar

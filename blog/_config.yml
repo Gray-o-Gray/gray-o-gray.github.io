@@ -1,9 +1,9 @@
 title: makiblog
-subtitle: 'coding极客'
-description: '分享知识的小菜鸟'
+subtitle: ''
+description: ''
 keywords: blog network
-author: zhu mengfei
-language: zh-CN
+author: maki
+language: en
 timezone: ''
 url: http://example.com
 permalink: ':year/:month/:day/:title/'
