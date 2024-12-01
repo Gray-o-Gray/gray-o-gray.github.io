@@ -63,8 +63,4 @@ deploy:
   type: git
   repo: git@github.com:Gray-o-Gray/gray-o-gray.github.io.git
   branch: master
-widgets:
-  - type: profile
-    position: left
-  - type: recent_posts
-    position: righ
+  
