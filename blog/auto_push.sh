@@ -1,5 +1,7 @@
 #!/bin/bash
 
+DOMAIN_NAME="www.makiblog.cn"
+
 git_commit_push(){
     cd ..
 
@@ -19,6 +21,10 @@ git_commit_push(){
 }
 
 hexo_develop_to_git(){
+
+    if [ ! -f "./public/CNAME" ]; then
+        mkdir -p ./public && echo $DOMAIN_NAME > ./public/CNAME
+    fi
 
     hexo d -g || npx hexo d -g
 

@@ -4,6 +4,7 @@ db.json
 *.log
 node_modules/
 public/
+!public/img/
 .deploy*/
 _multiconfig.yml
 themes/hexo-theme-icarus/
