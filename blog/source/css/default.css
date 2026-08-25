@@ -1,0 +1,12 @@
+/* custom css placeholder */
+a,.has-text-primary{color:#2563eb}
+a:hover{color:#1d4ed8}
+.navbar{background:#fff;box-shadow:0 1px 3px rgba(37,99,235,.08)}
+.navbar-item.is-active,.navbar-item:hover{color:#2563eb!important}
+.card{border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.card:hover{box-shadow:0 6px 20px rgba(37,99,235,.12)}
+.button.is-primary{background-color:#2563eb;border-color:#2563eb}
+.button.is-primary:hover{background-color:#1d4ed8;border-color:#1d4ed8}
+.content h2{border-bottom:2px solid #e5e7eb;padding-bottom:.3em}
+.footer{background-color:#f9fafb}
+.hljs{border-radius:8px}

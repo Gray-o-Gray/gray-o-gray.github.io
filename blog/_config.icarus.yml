@@ -3,7 +3,7 @@ version: 5.1.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: /img/logo.svg
+logo: /img/logo-ai.png
 # Page metadata configurations
 head:
     # URL or path to the website's icon
@@ -118,7 +118,7 @@ navbar:
 # Page footer configurations
 footer:
     # Copyright text
-    copyright: © 2019
+    copyright: © 2026 maki
     # Links to be shown on the right of the footer section
     links:
         Creative Commons:
@@ -237,7 +237,7 @@ widgets:
         # URL or path to the avatar image
         avatar: /img/maki.png
         # Whether show the rounded avatar image
-        avatar_rounded: false
+        avatar_rounded: true
         # Email address for the Gravatar
         gravatar: 
         # URL or path for the follow button
@@ -270,17 +270,6 @@ widgets:
         collapsed: true
         # Maximum level of headings to show (1-6)
         depth: 3
-    # Recommendation links widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: links
-        # Names and URLs of the sites
-        links:
-            Hexo: https://hexo.io
-            Bulma: https://bulma.io
-            icarus: https://github.com/ppoffice/hexo-theme-icarus
-    # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
         position: left
