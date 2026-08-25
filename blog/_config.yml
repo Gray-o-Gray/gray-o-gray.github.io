@@ -1,10 +1,10 @@
 title: makiblog
-subtitle: ''
-description: ''
-keywords: blog network
+subtitle: 记录技术、读书与思考
+description: maki 的个人博客，记录云计算、博客搭建、读书笔记与踩坑经验。
+keywords: blog, cloud computing, hexo, 读书笔记
 author: maki
-language: en
-timezone: ''
+language: zh-CN
+timezone: 'Asia/Shanghai'
 url: https://www.makiblog.cn
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
@@ -63,4 +63,19 @@ deploy:
   type: git
   repo: git@github.com:Gray-o-Gray/gray-o-gray.github.io.git
   branch: master
-  
+
+# Feed (RSS/Atom)
+# https://github.com/hexojs/hexo-generator-feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content: true
+  content_limit: 140
+
+# Sitemap
+# https://github.com/hexojs/hexo-generator-sitemap
+sitemap:
+  path: sitemap.xml
+

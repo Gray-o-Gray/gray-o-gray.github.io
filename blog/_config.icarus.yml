@@ -45,21 +45,21 @@ head:
         type: blog
         # Page URL (og:url) (optional)
         # You should leave this blank for most of the time
-        url: 
+        url: https://www.makiblog.cn
         # Page cover (og:image) (optional)
         # You should leave this blank for most of the time
-        image: 
+        image: /img/og_image.png
         # Site name (og:site_name) (optional)
         # You should leave this blank for most of the time
-        site_name: 
+        site_name: makiblog
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: 
+        author: maki
         # Page description (og:description) (optional)
         # You should leave this blank for most of the time
-        description: 
+        description: maki 的个人博客，记录云计算、博客搭建、读书笔记与踩坑经验。
         # Twitter card type (twitter:card)
-        twitter_card: 
+        twitter_card: summary
         # Twitter ID (twitter:creator)
         twitter_id: 
         # Twitter Site (twitter:site)
@@ -100,7 +100,7 @@ head:
         # E.g., name=theme-color;content=#123456 => <meta name="theme-color" content="#123456">
         - ''
     # URL or path to the website's RSS atom.xml
-    rss: 
+    rss: /atom.xml
 # Page top navigation bar configurations
 navbar:
     # Navigation menu items
@@ -165,7 +165,9 @@ search:
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
-    type: disqus
+    # Comment plugin is disabled until a provider is configured.
+    # To enable, uncomment `type` and fill in the required fields.
+    # type: disqus
     # Disqus shortname
     shortname: ''
 # Donate plugin configurations
@@ -206,7 +208,9 @@ donates:
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
 share:
-    type: sharethis
+    # Share plugin is disabled until a provider is configured.
+    # To enable, uncomment `type` and fill in the required fields.
+    # type: sharethis
     # URL to the ShareThis share plugin script
     install_url: ''
 # Sidebar configurations.
