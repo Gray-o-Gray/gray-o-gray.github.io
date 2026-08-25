@@ -1,0 +1,10 @@
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/*
+!public/img/
+.deploy*/
+_multiconfig.yml
+themes/hexo-theme-icarus/
