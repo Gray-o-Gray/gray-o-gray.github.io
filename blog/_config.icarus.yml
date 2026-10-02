@@ -165,11 +165,20 @@ search:
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
-    # Comment plugin is disabled until a provider is configured.
-    # To enable, uncomment `type` and fill in the required fields.
-    # type: disqus
-    # Disqus shortname
-    shortname: ''
+    # giscus（基于 GitHub Discussions）：https://giscus.app
+    # 前置条件：仓库 Discussions 已开启 + giscus App 已安装（2026-10-02 已完成）
+    type: giscus
+    repo: Gray-o-Gray/gray-o-gray.github.io
+    repoId: R_kgDOM5JyvQ
+    category: Announcements
+    categoryId: DIC_kwDOM5Jyvc4Ci6vh
+    mapping: pathname
+    strict: 0
+    reactionsEnabled: 1
+    emitMetadata: 0
+    inputPosition: bottom
+    theme: preferred_color_scheme
+    lang: zh-CN
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 donates:
