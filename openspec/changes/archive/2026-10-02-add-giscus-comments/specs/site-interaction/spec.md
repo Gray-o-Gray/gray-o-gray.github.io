@@ -1,6 +1,6 @@
 # site-interaction 变更（delta）
 
-## MODIFIED Requirements
+## ADDED Requirements
 
 ### Requirement: 评论系统
 站点 SHALL 启用 giscus 评论系统（基于仓库 GitHub Discussions），文章页底部 SHALL 渲染评论区；giscus 配置参数（repo/repo-id/category/category-id）SHALL 写入 `blog/_config.icarus.yml`。
