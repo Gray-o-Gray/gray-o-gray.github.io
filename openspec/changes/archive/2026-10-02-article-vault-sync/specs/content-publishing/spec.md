@@ -1,23 +1,6 @@
-# content-publishing Specification
+# content-publishing 变更（delta）
 
-## Purpose
-文章内容的创作与发布流程：Markdown 源文件存放于 `blog/source/_posts/`，通过 hexo draft/publish 工作流写作，push 后自动部署。
-
-## Requirements
-
-### Requirement: 文章目录
-文章 SHALL 以 Markdown 形式存放于 `blog/source/_posts/`；站点图片存放于 `blog/source/img/`，文章配图使用 PicGo 上传 GitHub 图床并引用外链 URL。
-
-#### Scenario: 新增文章
-- WHEN 在 `_posts/` 下新增 Markdown 文件并 push
-- THEN 构建后文章在站点上可见（首页/归档/标签/分类）
-
-### Requirement: 草稿工作流
-写作 SHALL 支持 hexo 草稿流：`npx hexo new draft <title>` 创建草稿、`npx hexo s --draft` 本地预览、`npx hexo publish <title>` 发布为正式文章。
-
-#### Scenario: 草稿发布
-- WHEN 对某草稿执行 `hexo publish`
-- THEN 草稿移动到 `_posts/` 并在下次构建后上线
+## ADDED Requirements
 
 ### Requirement: vault 同步发布
 系统 SHALL 支持从 Obsidian vault 草稿区（`02-领域/博客/文章/待发布/`）同步文章到 `blog/source/_posts/`：仅同步 frontmatter `发布: 是` 的文章；vault frontmatter（标题/分类/标签/日期）SHALL 转换为 Hexo front-matter；同步脚本 SHALL 基于内容 hash 检测变更并自动重新同步；支持 `--push` 触发部署与 `--dry-run` 预览。
