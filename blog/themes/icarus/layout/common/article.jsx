@@ -20,7 +20,7 @@ function getWordCount(content) {
 
 module.exports = class extends Component {
     render() {
-        const { config, helper, page, index } = this.props;
+        const { config, helper, page, index, full } = this.props;
         const { article, plugins } = config;
         const { url_for, date, date_xml, __, _p } = helper;
 
@@ -91,7 +91,7 @@ module.exports = class extends Component {
                     {page.title !== '' && index ? <p class="title is-3 is-size-4-mobile"><a class="link-muted" href={url_for(page.link || page.path)}>{page.title}</a></p> : null}
                     {page.title !== '' && !index ? <h1 class="title is-3 is-size-4-mobile">{page.title}</h1> : null}
                     {/* Content/Excerpt */}
-                    <div class="content" dangerouslySetInnerHTML={{ __html: index && page.excerpt ? page.excerpt : page.content }}></div>
+                    <div class="content" dangerouslySetInnerHTML={{ __html: index && page.excerpt && !full ? page.excerpt : page.content }}></div>
                     {/* Licensing block */}
                     {!index && article && article.licenses && Object.keys(article.licenses)
                         ? <ArticleLicensing.Cacheable page={page} config={config} helper={helper} /> : null}
@@ -103,7 +103,7 @@ module.exports = class extends Component {
                         })}
                     </div> : null}
                     {/* "Read more" button */}
-                    {index && page.excerpt ? <a class="article-more button is-small is-size-7" href={`${url_for(page.link || page.path)}#more`}>{__('article.more')}</a> : null}
+                    {index && page.excerpt && !full ? <a class="article-more button is-small is-size-7" href={`${url_for(page.link || page.path)}#more`}>{__('article.more')}</a> : null}
                     {/* Share button */}
                     {!index ? <Share config={config} page={page} helper={helper} /> : null}
                 </article>
