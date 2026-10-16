@@ -1,7 +1,7 @@
 ---
 title: 收到 Google Search Console 提醒后，我挖出了博客的两个隐患
-date: 2026-10-16 21:20:05 +0800
-updated: 2026-10-16 21:20:17
+date: 2026-10-07 15:48:25
+updated: 2026-10-16 21:28:10
 categories:
   - 技术
 tags:
